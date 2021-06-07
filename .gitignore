@@ -2,3 +2,5 @@ front/dist
 front/node_modules
 front/node_modules
 node/node_modules
+node/.ftpconfig
+node/.ftpignore

@@ -1,4 +1,5 @@
 https://malcoded.com/posts/angular-push-notifications/
+https://github.com/LukasMarx/angular-push-notifications
 https://medium.com/zettle-engineering/beginners-guide-to-web-push-notifications-using-service-workers-cb3474a17679
 
 
@@ -17,3 +18,7 @@ Private Key:
 
 
 ng build --prod
+(npm install -g http-serve)
+Go to dist/project_name from cmd
+Type http-server -p 8080 on cmd
+Type http://localhost:8080/ on browser
