@@ -3,9 +3,8 @@ https://github.com/LukasMarx/angular-push-notifications
 https://medium.com/zettle-engineering/beginners-guide-to-web-push-notifications-using-service-workers-cb3474a17679
 
 
-1. ng new web-push
-2. npm install -g web-push
-3. web-push generate-vapid-keys
+1. npm install -g web-push
+2. web-push generate-vapid-keys
 =======================================
 
 Public Key:
