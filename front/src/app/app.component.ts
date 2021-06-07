@@ -11,8 +11,6 @@ const VAPID_PUBLIC = 'BLFfErGp4NfSrqmEdSkWacLoiEQ2ihfUAkwW6GW1rQFj0OkDcnIivTJd2K
 })
 export class AppComponent implements AfterViewInit {
     title = 'angular-push-notifications';
-
-
     constructor(swPush: SwPush, pushService: PushNotificationService) {
         console.log('swPush', swPush, swPush.isEnabled);
         // for the service-worker to works you need to compile with --prod

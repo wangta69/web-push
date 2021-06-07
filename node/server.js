@@ -23,6 +23,16 @@ webpush.setVapidDetails('mailto:y.h.ryu@tipszone.co.kr', PUBLIC_VAPID, PRIVATE_V
 app.post('/subscription', (req, res) => {
   const subscription = req.body;
   console.log(subscription);
+
+//   {
+//   endpoint: 'https://fcm.googleapis.com/fcm/send/c55x3zAoprA:---------------------',
+//   expirationTime: null,
+//   keys: {
+//     p256dh: '---------------------------',
+//     auth: '--------------------------------'
+//   }
+// }
+
   fakeDatabase.push(subscription)
 })
 
